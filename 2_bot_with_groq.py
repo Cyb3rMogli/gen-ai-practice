@@ -19,10 +19,6 @@ def date_today():
     return {"date": str(date.today())}
 
 
-def msg_for_history(role, content):
-    return {"role": role, "content": content}
-
-
 llm = ChatGroq(
     model="openai/gpt-oss-120b",
     api_key=settings.GROQ_API_KEY,
