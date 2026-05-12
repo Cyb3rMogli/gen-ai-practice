@@ -3,9 +3,12 @@ name = "gen-ai-practice"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "ddgs>=9.14.2",
     "langchain>=1.2.17",
     "langchain-anthropic>=1.4.2",
+    "langchain-community>=0.4.1",
     "langchain-google-genai>=4.2.2",
+    "langchain-groq>=1.1.2",
     "langchain-openai>=1.2.1",
     "pydantic-settings>=2.14.0",
     "streamlit>=1.57.0",
